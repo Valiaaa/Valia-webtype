@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(219,217,211);
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 58px;
+    color: black;
+    margin-top: -0.1% ;
+    margin-bottom: -0.1% ;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color:rgb(0, 0, 148);
+}
+
+.left {
+    width: 38%;
+    display: inline-block;
+    position: relative;
+}
+
+.right {
+    width: 58%;
+    display: inline-block;
+    position: absolute;
+}
+
+br {
+    width:100%;
+    line-height: 58px;
+}
+
+@media screen and (max-width: 750px) {
+    p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    br {
+        line-height: 36px;
+    }
+}
