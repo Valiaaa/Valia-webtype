@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+
+*{
+	margin-top: 2px;
+	margin-left: 0.3%;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color: rgb(30, 30, 30);
+	background-color: rgb(240, 240, 240);
+	cursor: default;
+}
+
+a {
+	color:rgb(0, 0, 0) !important;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 300;
+	display: inline-block;
+	font-size: 28px;
+}
+
+h1:hover {
+	color:blue;
+	cursor: pointer;
+}
+
+h2{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-block-start: 0rem;
+	line-height: 28px;
+}
+
+.CNID{
+	width: 65%;
+	display:inline-block;
+}
+
+.Time{
+	width: 35%;
+	margin-left:65%;
+	margin-top: -30px;
+}
+
+.ENTime{
+	width: 35%;
+	margin-left:65%;
+	margin-top: -28px;
+}
+
+.content {
+	width: 65%;
+	text-align: center;
+	display: block;
+	margin: 0;
+	position:absolute;
+	top:50%;
+	left:65%;
+	transform: translate(-45%,-80%);
+}
+
+.right{
+	width: 64%;
+	height:94vh;
+	margin-top: -40px;
+	display: none;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+}
+
+.box {
+	border: none;
+	height: 95vh;
+	width:35%;
+	overflow: scroll;
+	}
+
+.lines:hover {
+	color:blue;
+	cursor: pointer !important;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 0px;
+
+	}
+
+::-webkit-scrollbar-thumb {
+	background: blue;  
+	border-radius: 10px;
+	}
+	
+	::-webkit-scrollbar-thumb:hover {
+	background: rgb(0, 0, 188);  
+	}
+
+.x {
+	display: none;
+	font-size: 30px;
+}
+
+.back {
+	display: none;
+	font-size: 30px;
+}
+
+.forward {
+	display: none;
+	font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1150px) and (min-width: 880px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size:14px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 880px) and (min-width: 720px){
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size:18px;
+		line-height: 28px;
+	}
+	.box {
+		width:100%;
+		margin-left: -0.6% !important;
+		}
+
+	.right{
+		width: 80%;
+		margin-left: 10%;
+		position: relative;
+		height:90vh;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+	}
+	.back{
+		width: 50%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.forward{
+		width: 50%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+		margin-left: 50%;
+	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-48.5%,-80%);
+}
+
+}
+
+@media screen and (max-width: 720px){
+	h1 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	h2 {
+		font-size:14px;
+		line-height: 24px;
+	}
+	.title {
+		display: none;
+	}
+	.title2 {
+		display: block;
+		width: 40%;
+	}
+	
+	.about {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -70px;
+		width: 60%;
+	}
+	
+	.language {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -18px;
+		width: 60%;
+	}
+	.box {
+		width:100%;
+		height: 95vh;
+		margin-top: -36px !important;
+		margin-left: -0.3% !important;
+	}
+	.right{
+		width: 80%;
+		margin-left: 10%;
+		position: relative;
+		height:90vh;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+	}
+	.back{
+		width: 50%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.forward{
+		width: 50%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+		margin-left: 50%;
+	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-47%,-80%);
+	}
+		
+}
